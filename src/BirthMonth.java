@@ -2,6 +2,21 @@ import java.util.Scanner;
 public class BirthMonth {
     public static void main(String[] args)
     {
+        /*
+        class birthMonth
+
+	        Main()
+		        num birthMonth
+		        output “What month were you born? (1-12)”
+		        input birthMonth
+		        if birthMonth >= 1 and birthMonth <= 12 then
+		        	output “Your birth month is: “ +birthMonth
+		        else
+		        	output “You entered an incorrect month value: “ +birthMonth
+	        return
+        end class
+        */
+
         Scanner in = new Scanner(System.in);
 
         int birthMonth;
